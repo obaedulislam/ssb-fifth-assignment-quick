@@ -15,7 +15,7 @@ header {
     position: fixed;
     background-color: #fff;
     overflow: hidden;
-    border: 1px solid #eef0f3;
+    border: 1.5px solid #eef0f3;
 }
 .header-container {
     margin: 0 auto;
