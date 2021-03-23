@@ -16,7 +16,6 @@ header {
     background-color: #fff;
     overflow: hidden;
     border: 1px solid #eef0f3;
-    box-shadow: 0 5px 7px -6px #0f2656;
 }
 .header-container {
     margin: 0 auto;
