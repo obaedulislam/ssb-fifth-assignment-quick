@@ -1,0 +1,194 @@
+/* ====Common CSS Start==== */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* ====Common CSS Start==== */
+
+
+/* ====Header CSS Start==== */
+header {
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    overflow: hidden;
+    border: 1px solid #eef0f3;
+    box-shadow: 0 5px 7px -6px #0f2656;
+}
+.header-container {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+    padding: 5px 0px 3px;
+}
+.header-container .logo{
+    width: 11%;
+    float: left;
+}
+.header-container .logo a img{
+    width: 100%;
+}
+.header-container .menu{
+    width: 60%;
+    float: right;
+}
+.header-container .menu ul{
+    float: right;
+}
+.header-container .menu ul li{
+    position: relative;
+    float: left;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.header-container .menu ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #0F2656;
+    display: inline-block;
+    transition: .3s;
+    padding-bottom: 3px;
+}
+.header-container .menu ul li a::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    left:0;
+    bottom: 0;
+    background-color: #0F2656;
+    transition: .5s;
+}
+.header-container .menu ul li a:hover::after{
+    width: 100%;
+    color: #0C66FF;
+}
+/* ====Header CSS End==== */
+
+
+/* ====Banner CSS Start==== */
+.banner-container{
+    margin: 0 auto;
+    width: 55%;
+    overflow: hidden;
+    padding: 100px 50px 50px;
+    text-align: center;
+}
+.banner-container h1 {
+    margin: 0;
+    display: inline-block;
+    font-size: 60px;
+    color: #0f2656;
+    line-height: 75px;
+}
+.banner-container p {
+    color: #0f2656;
+    line-height: 30px;
+}
+/* ====Banner CSS End==== */
+
+
+/* ====Successfull CSS Start==== */
+.successfull-container {
+    margin: 0 auto;
+    width: 60%;
+    overflow: hidden;
+    padding: 50px 0px;
+}
+.successfull-container .s-left{
+    width: 42%;
+    float: left;
+    padding: 20px 15px 20px 0px;
+    text-align:right;
+}
+.successfull-container .s-left h2 {
+    margin: 0;
+    font-size: 55px;
+    font-weight: 700;
+    color: #f36978;
+}
+.successfull-container .s-left p {
+    margin: 0;
+    line-height: 25px;
+    color: #0f2656;
+}
+.successfull-container .s-right{
+    width: 50%;
+    float: left;
+    padding: 20px 0px 20px 15px;
+    text-align: left;
+}
+.successfull-container .s-right h1 {
+    margin: 0;
+    font-size: 52px;
+    color: #0f2656;
+}
+/* ====Successfull CSS End==== */
+
+
+/* ====Blog CSS Start==== */
+.blog-container{
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+    padding: 50px 0px;
+}
+.blog-container .single-blog {
+    width: 26.7%;
+    float: left;
+    padding: 30px;
+    margin-right: 30px;
+    background-color: #fdebed;
+}
+.blog-container .single-blog img{
+    width: 100%;
+}
+.blog-container .single-blog h3{
+    margin:0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0f2656;
+    line-height: 50px;
+}
+.blog-container .single-blog p{
+    margin: 0;
+    color: #0f2656;
+    word-spacing: 2px;
+    font-weight: 300;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+.blog-container .single-blog:nth-child(2){
+    background-color: #ebf9f4;
+}
+.blog-container .single-blog:nth-child(3){
+    background-color: #fff7e8;
+}
+.blog-container .single-blog:last-child{ 
+    margin-right: 0px;
+}
+/* ====Blog CSS End==== */
+
+
+/* ====Footer CSS Start==== */
+footer{
+    background-color: #008aff;
+    padding: 12px 0px;
+}
+footer .footer-container{
+    text-align: center;
+}
+footer .footer-container p{
+    color: #94c0ff;
+}
+footer .footer-container p span{
+    color: #fff;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+/* ====Footer CSS End==== */
