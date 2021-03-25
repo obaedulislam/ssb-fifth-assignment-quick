@@ -81,9 +81,10 @@ header {
 .banner-container h1 {
     margin: 0;
     display: inline-block;
-    font-size: 60px;
+    font-size: 55px;
     color: #0f2656;
-    line-height: 75px;
+    line-height: 70px;
+    padding-top: 10px;
 }
 .banner-container p {
     color: #0f2656;
