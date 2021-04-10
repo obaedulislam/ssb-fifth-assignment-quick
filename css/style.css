@@ -38,20 +38,20 @@ header {
     float: right;
 }
 .header-container .menu ul li{
+    margin-left: 40px;
     position: relative;
     float: left;
     list-style: none;
-    margin-left: 40px;
 }
 
 .header-container .menu ul li a{
+    padding-bottom: 3px;
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
     color: #0F2656;
     display: inline-block;
     transition: .3s;
-    padding-bottom: 3px;
 }
 .header-container .menu ul li a::after{
     content: '';
@@ -73,18 +73,18 @@ header {
 /* ====Banner CSS Start==== */
 .banner-container{
     margin: 0 auto;
+    padding: 100px 50px 50px;
     width: 55%;
     overflow: hidden;
-    padding: 100px 50px 50px;
     text-align: center;
 }
 .banner-container h1 {
     margin: 0;
+    padding-top: 10px;
     display: inline-block;
     font-size: 55px;
     color: #0f2656;
     line-height: 70px;
-    padding-top: 10px;
 }
 .banner-container p {
     color: #0f2656;
@@ -97,13 +97,13 @@ header {
 .successfull-container {
     margin: 0 auto;
     width: 60%;
+    padding: 50px 0;
     overflow: hidden;
-    padding: 50px 0px;
 }
 .successfull-container .s-left{
     width: 42%;
     float: left;
-    padding: 20px 15px 20px 0px;
+    padding: 20px 15px 20px 0;
     text-align:right;
 }
 .successfull-container .s-left h2 {
@@ -120,7 +120,7 @@ header {
 .successfull-container .s-right{
     width: 50%;
     float: left;
-    padding: 20px 0px 20px 15px;
+    padding: 20px 0 20px 15px;
     text-align: left;
 }
 .successfull-container .s-right h1 {
@@ -139,10 +139,10 @@ header {
     padding: 50px 0px;
 }
 .blog-container .single-blog {
+    margin-right: 2%;
     width: 26.7%;
     float: left;
     padding: 30px;
-    margin-right: 30px;
     background-color: #fdebed;
 }
 .blog-container .single-blog img{
@@ -170,7 +170,7 @@ header {
     background-color: #fff7e8;
 }
 .blog-container .single-blog:last-child{ 
-    margin-right: 0px;
+    margin-right: 0;
 }
 /* ====Blog CSS End==== */
 
@@ -178,7 +178,7 @@ header {
 /* ====Footer CSS Start==== */
 footer{
     background-color: #008aff;
-    padding: 12px 0px;
+    padding: 12px 0;
 }
 footer .footer-container{
     text-align: center;
